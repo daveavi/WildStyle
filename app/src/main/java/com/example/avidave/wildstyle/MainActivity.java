@@ -1,14 +1,29 @@
 package com.example.avidave.wildstyle;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+
 import android.os.AsyncTask;
 
-public class MainActivity extends AppCompatActivity {
+class MainActivity extends AppCompatActivity {
+    TextView RandWord;
+    TextView Sugg1;
+    TextView Sugg2;
+    TextView Sugg3;
+    TextView Sugg4;
+    TextView Sugg5;
+
+    Button buttonGen;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

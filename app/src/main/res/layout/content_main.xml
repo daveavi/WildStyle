@@ -13,8 +13,8 @@
         android:layout_width="117dp"
         android:layout_height="46dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="100dp" />
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="98dp" />
 
     <TextView
         android:id="@+id/Sugg1"
@@ -56,22 +56,12 @@
         tools:layout_editor_absoluteX="480dp"
         tools:layout_editor_absoluteY="208dp" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="time"
-        android:text="0:20"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="249dp" />
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonGen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next Word"
-        tools:layout_editor_absoluteX="300dp"
-        tools:layout_editor_absoluteY="246dp" />
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="247dp" />
 
 </android.support.constraint.ConstraintLayout>
